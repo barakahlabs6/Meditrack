@@ -1,0 +1,7 @@
+[build]
+  base = "apps/desktop"
+  command = "npm run build"
+  publish = "apps/desktop/out"
+
+[build.environment]
+  NEXT_PUBLIC_API_URL = "https://open-newark-thorough-graphic.trycloudflare.com"
