@@ -1,0 +1,11 @@
+node_modules
+.env
+.env.local
+*.db
+*.db-wal
+*.db-shm
+uploads/*
+!uploads/.gitkeep
+apps/desktop/.next
+apps/desktop/out
+apps/desktop/src-tauri/target
