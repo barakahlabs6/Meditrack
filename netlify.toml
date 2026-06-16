@@ -4,4 +4,4 @@
   publish = "out"
 
 [build.environment]
-  NEXT_PUBLIC_API_URL = "https://open-newark-thorough-graphic.trycloudflare.com"
+  NEXT_PUBLIC_API_URL = "https://linux-posts-arguments-determining.trycloudflare.com"
