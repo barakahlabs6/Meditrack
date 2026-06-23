@@ -4,4 +4,4 @@
   publish = "out"
 
 [build.environment]
-  NEXT_PUBLIC_API_URL = "https://thumbzilla-implemented-flights-discretion.trycloudflare.com"
+  NEXT_PUBLIC_API_URL = "https://mind-maintained-cant-poly.trycloudflare.com"
