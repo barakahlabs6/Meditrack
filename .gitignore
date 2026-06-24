@@ -9,3 +9,4 @@ uploads/*
 apps/desktop/.next
 apps/desktop/out
 apps/desktop/src-tauri/target
+apps/api/server.log
