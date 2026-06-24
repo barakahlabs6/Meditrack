@@ -2,9 +2,7 @@ module.exports = {
   apps: [
     {
       name: 'meditrack-api',
-      cwd: '/home/alexis/portfolio-app/apps/api',
-      script: '/home/alexis/.nvm/versions/node/v22.20.0/bin/node',
-      args: '/home/alexis/.nvm/versions/node/v22.20.0/bin/tsx watch src/index.ts',
+      script: '/home/alexis/portfolio-app/apps/api/start.sh',
       watch: false,
     },
     {
@@ -16,14 +14,6 @@ module.exports = {
       autorestart: true,
       output: '/tmp/tunnel.log',
       error: '/tmp/tunnel.log',
-    },
-    {
-      name: 'meditrack-tunnel-watcher',
-      cwd: '/home/alexis/portfolio-app',
-      script: '/bin/bash',
-      args: './tunnel-watcher.sh',
-      watch: false,
-      autorestart: false,
     },
   ],
 };
